@@ -1,7 +1,7 @@
  <!DOCTYPE html>
  <html>
 <body>
-    <h1>Php with mysql. First lesson</h1>
+    <h1>Php with mysql. First lesson. First Task</h1>
     <?php 
       require_once __DIR__ . '/queries/get_orders.php'; 
 
