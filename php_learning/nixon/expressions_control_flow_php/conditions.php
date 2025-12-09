@@ -21,7 +21,7 @@
 
   $d = 100;
 
-  
+
   // Вариант с else if
   echo "<br>";
 
@@ -32,6 +32,21 @@
 
     echo "Second condition";
   }
+
+
+// switch
+
+echo "<br>";
+
+switch($a){
+
+    case($a > 10):
+        echo "First condition";
+    case($a > 20):
+        echo "Second condition";
+    default: echo "Third condition";
+
+}
 
 
     ?>
